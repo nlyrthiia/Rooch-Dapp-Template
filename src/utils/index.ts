@@ -19,8 +19,6 @@ export const WALLETURL = {
 };
 
 export const installWallet = (connectorId: string, e: any) => {
-  const explorerName = getExplorer();
-
   if (connectorId === "unisat") {
     e.preventDefault();
     window.open(WALLETURL.UnisatWallet, "_blank");

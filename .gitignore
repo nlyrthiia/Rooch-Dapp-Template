@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 bun.lockb
+package-lock.json
 
 # testing
 /coverage
@@ -15,6 +16,7 @@ bun.lockb
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -31,6 +33,3 @@ yarn-error.log*
 
 # local folder
 local
-
-# vercel
-.vercel
